@@ -4,3 +4,13 @@ Unjquerify is a JavaScript preprocessor that tries to find common jQuery usages 
 vanilla JavaScript, or as close to vanilla as currently possible.
 
 This is currently the placeholder for the project, that has still to begin :)
+
+## Example
+
+Input:
+
+	$('#my-div').hide();
+
+Output:
+
+	document.getElementById('globalContainer')&&(document.getElementById('globalContainer').style.display='none')
