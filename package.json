@@ -1,0 +1,27 @@
+{
+  "name": "unjquerify",
+  "version": "0.0.1",
+  "description": "Unjquerify is a JavaScript preprocessor that tries to find common jQuery usages and convert them to vanilla JavaScript, or as close to vanilla as currently possible.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WesleydeSouza/unjquerify.git"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "vanilla"
+  ],
+  "author": "Wesley de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleydeSouza/unjquerify/issues"
+  },
+  "homepage": "https://github.com/WesleydeSouza/unjquerify"
+}
