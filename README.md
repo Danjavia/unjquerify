@@ -13,4 +13,4 @@ Input:
 
 Output:
 
-	document.getElementById('globalContainer')&&(document.getElementById('globalContainer').style.display='none')
+	document.getElementById('my-div')&&(document.getElementById('my-div').style.display='none')
